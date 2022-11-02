@@ -1,0 +1,19 @@
+body {
+	background: #141414 !important;
+	color: #ffffff;
+}
+
+.movie-app > .row {
+	overflow-x: auto !important;
+	flex-wrap: nowrap !important;
+}
+
+.image-container {
+	position: relative;
+	transition: transform 0.2s;
+}
+
+.image-container:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
